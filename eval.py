@@ -97,7 +97,7 @@ def main():
     )
     parser.add_argument(
         "--max_new_tokens",
-        default=,
+        default=8192,
         type=int,
         help="最大生成长度（注意：并非模型实际长文本能力）",
     )
